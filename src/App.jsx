@@ -5,6 +5,7 @@ import {increment,decrement} from './app/feature/counter/counterSlice'
 const App = () => {
   
 //read data from store 
+//this is new 
  const count =useSelector((state)=> (state.counter.value))
 
  //changing data by sending actions to the store
